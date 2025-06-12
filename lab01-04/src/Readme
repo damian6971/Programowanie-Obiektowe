@@ -1,13 +1,117 @@
-Zadania:
-1. Napisz metodę, która zwróci twoje imię oraz aktualny wiek.
-2. Napisz metodę, która jako argument przyjmuje 2 liczby i wypisuje ich sumę, różnicę i iloczyn.
-Argumenty przekazywane do metody są liczbami wprowadzanymi przez użytkownika z klawiatury.
-3. Napisz metodę, która jako argument przyjmuje liczbę i zwraca true jeśli liczba jest parzysta.
-4. Napisz metodę, która jako argument przyjmuje liczbę i zwraca true jeśli liczba jest podzielna przez
-3 i przez 5.
-5. Napisz metodę, która jako argument przyjmuje liczbę i zwraca go podniesionego do 3 potęgi.
-6. Napisz metodę, która jako argument przyjmuje liczbę i zwraca jej pierwiastek kwadratowy.
-7. Napisz metodę, która jako argument przyjmie trzy liczby. Metoda powinna zwrócić true jeśli
-z odcinków o długości przekazanych w argumentach można zbudować trójkąt prostokątny.
-Argumenty przekazywane do metody są liczbami losowymi z przedziału <a,b> a i b wczytywane są
-przez użytkownika z klawiatury.
+LAB01
+1. Napisz program obliczający sumę i układ elementów sterujących dla każdego.
+Elementy do tablicy mają być wylosowane z poszczególnych przedziałów. wymagać
+oddzielna do losowania liczby.
+2. Napisz program, który wypisuje co drugi element ukryty przez Ciebie tablicę. Pierwsza
+tablica wyposażona w parzysty element, a druga nieparzysta.  
+3. Napisz program, w którym zdefiniujesz tablicę wartości typu String i zainicjalizujesz ją
+przykładowymi wartościami. Użyj z całości for-each, aby wypisać wszystkie wartości
+Płyta ze sterownikami literackimi zamienionymi na wielkie. Wykorzystanie z użytkowania
+toUpperCase wartość typu String..
+4. Napisz program, który pobierze od użytkownika pięć słów i zapisz je w tablicy. To,
+program powinien wypisać wszystkie słowa, od ostatniego do pierwszego, z literami
+zapisanemi od końca do początku. Dla przykładów, dla pojedynczych słów „Ala”, „ma”, „kota”, „i”,
+Program "psa" powinien wypisać: "asp", "i", "atok", "am", "alA".
+5. Napisz program, który pobierze od użytkownika XVIII, zapisz je w tablicy, a następnie
+posortuje tę tablicę rosnąco i wypisze wyniki sortowania na ekranie. Dla przykładu, dla liczby 10, -2, 1, 100, 20, -15, 0, 10, program wypisuje -15, -2, 0, 1, 10, 10, 20, 100. określone się, jak można
+posortować ciąg liczbowy i zaimplementować swoje rozwiązanie. Przetestuj je na różnych
+zestawach danych. Można też wymyślić z jednego z inteligentnych algorytmów sortowania, np.
+sortowanie przez wstawianie. Działanie algorytmu jest zamknięte na zasadzie działania
+algorytmy i struktury danych.
+6. Napisz program, który pobierze od użytkownika pięć postaci, zapisz je w tablicy, a następnie
+policzy i wypisz silnię każdego z wybranych ludzi.
+7. Napisz program, w którym zdefiniujesz dwie tablice przechowujące wartości typu String.
+Zainicjalizuj tablicę internetową z samymi wartościami, w takiej samej kolejności. Napisz kod,
+który równa się tablica i odpowiedź na pytanie, czy są takie same.
+
+
+LAB02
+1. Opisanie określenia oraz równania kwadratowego ax2+bx+c=0 , gdzie a, bi
+c są trwałemi podawanymi przez użytkownika.
+2. Napisz metody wyznaczania wartości funkcji wzorcowych dla argumentów niezależnych
+podawanych przez użytkownika:
+• ( )
+ 2 0
+ 0 0
+ 3 0
+ x dla x
+ siekiera dla x
+ x dla x
+    = = 
+ −  
+ 
+• ( ) 2 1
+ 1
+ x dla xbxx dla x
+   =  
+ 
+• ( )
+ 2 2
+ 8 2
+ 4 2
+ x dla x
+ cx dla x
+ x dla x
+ +    = = 
+  −  
+ 
+3. rozplanowania trzech elementów x, yi z. Odebranej do ważności.
+4. Z użyciem operatorów logicznych ! (negacja), && (i) napisz, który w zależności
+od dostępnych warunków udostępniania komunikatów:
+• Jeśli pada deszcz i jest autobus na przystanku, do „Weź parasol”, „Dostaniesz się na uczelniach”;
+• Jeśli pada deszcz i nie ma autobusu, na „Nie dostaniesz się na uczelnię”;
+• Jeśli nie pada deszcz i jest autobus na przystanku, do „Dostaniesz się na uczelniach”, „Miłego dnia
+„ipiękna pogoda” .
+Użytkownik podaje informacje o tym, czy pada i czy jest autobusem.
+5. Z użyciem operatorów logicznych ! (negacja), || (lub) napisz, który w zależności od
+możliwość korzystania z komunikaty:
+• Jeśli nie otrzymałeś na samochód lub otrzymałeś premię, na „Możesz zakup samochodu!”, „Zniżki
+na samochód nie mam”;
+• Jeśli nie dostarczono na samochód lub nie otrzymałeś premii, do „Zakup samochodu trzeba odłożyć
+na później...”, „Zniżki na samochód nie ma”;
+• Jeśli jest zniżka na samochód lub otrzymałeś premię, na „Możesz zakup samochodu!”.
+Użytkownik podał informacje o tym, czy jest zniżka na samochód i czy otrzymałeś podwyżkę.
+6. Napisz program, który jest następstwem od użytkownika, który może spowodować ryzyko związane z działaniami
+dodawania, odejmowania, iloczynu, ilorazu i reszta z dzielenia.
+
+
+LAB03
+1. Grupa laboratoryjna składa się z studentów (wartość n dostawcy). Wprowadzamy
+punkty dla każdego ucznia. Napisz program, który oblicza obliczenia punktów w
+grupa z obejmująca cały czas.
+2. Napisz program, który pozwolił na wczytanie 10 znaków i wyznaczenie ilości oraz sumy liczby
+niekorzystnech i dodatnich wyników przez użytkownika.
+3. Dany jest ciąg n liczb (n>0), napisz program, który zostanie opublikowany na obliczenie sumy wszystkich liczb
+parzystych w danym ciągu.
+4. Wykorzystując algorytm z zadań 5, napisz program, który umożliwi rozwiązanie na
+wylosowanie n liczby z przedziału (-10,45) i obliczenie sumy wszystkich liczb parzystych w danym
+ciągu.
+5. Napisz program, który odpowiedział na pytanie, czy podany przez użytkownika uwaga jest
+palindrom. Palindrom to słowo, które jest takie samo czytane od początku i od końca, np.
+kajak.
+
+LAB04
+1. Napisz program obliczający sumę i układ elementów sterujących dla każdego.
+Elementy do tablicy mają być wylosowane z poszczególnych przedziałów. wymagać
+oddzielna do losowania liczby.
+2. Napisz program, który wypisuje co drugi element ukryty przez Ciebie tablicę. Pierwsza
+tablica wyposażona w parzysty element, a druga nieparzysta.  
+3. Napisz program, w którym zdefiniujesz tablicę wartości typu String i zainicjalizujesz ją
+przykładowymi wartościami. Użyj z całości for-each, aby wypisać wszystkie wartości
+Płyta ze sterownikami literackimi zamienionymi na wielkie. Wykorzystanie z użytkowania
+toUpperCase wartość typu String..
+4. Napisz program, który pobierze od użytkownika pięć słów i zapisz je w tablicy. To,
+program powinien wypisać wszystkie słowa, od ostatniego do pierwszego, z literami
+zapisanemi od końca do początku. Dla przykładów, dla pojedynczych słów „Ala”, „ma”, „kota”, „i”,
+Program "psa" powinien wypisać: "asp", "i", "atok", "am", "alA".
+5. Napisz program, który pobierze od użytkownika XVIII, zapisz je w tablicy, a następnie
+posortuje tę tablicę rosnąco i wypisze wyniki sortowania na ekranie. Dla przykładu, dla liczby 10, -2, 1, 100, 20, -15, 0, 10, program wypisuje -15, -2, 0, 1, 10, 10, 20, 100. określone się, jak można
+posortować ciąg liczbowy i zaimplementować swoje rozwiązanie. Przetestuj je na różnych
+zestawach danych. Można też wymyślić z jednego z inteligentnych algorytmów sortowania, np.
+sortowanie przez wstawianie. Działanie algorytmu jest zamknięte na zasadzie działania
+algorytmy i struktury danych.
+6. Napisz program, który pobierze od użytkownika pięć postaci, zapisz je w tablicy, a następnie
+policzy i wypisz silnię każdego z wybranych ludzi.
+7. Napisz program, w którym zdefiniujesz dwie tablice przechowujące wartości typu String.
+Zainicjalizuj tablicę internetową z samymi wartościami, w takiej samej kolejności. Napisz kod,
+który równa się tablica i odpowiedź na pytanie, czy są takie same.
